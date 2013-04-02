@@ -1,0 +1,6 @@
+*.xcodeproj/*.xcworkspace/
+*.xcodeproj/xcuserdata
+xcuserdata
+**/.DS_Store
+.DS_Store
+Docbot/.*.TM_Completions.txt.gz

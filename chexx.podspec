@@ -5,8 +5,8 @@ Pod::Spec.new do |s|
   s.author       = { "Phillip Calvin" => "phillip.calvin@eleostech.com" }
   s.source       = { :git => "https://github.com/eleostech/chexx.git" }
   s.platform     = :ios, '4.3'
-  s.source_files = '*.{h,m}'
-  s.public_header_files = 'chexx.h'
+  s.source_files = 'chexx/*.{h,m}'
+  s.public_header_files = 'chexx/chexx.h'
   s.resources = "Resources/*.png"
   s.requires_arc = true
   s.dependency 'MBProgressHUD', '0.5'

@@ -8,5 +8,5 @@ Pod::Spec.new do |s|
   s.source_files = 'chexx/*.{h,m}'
   s.resources = "Resources/*.png"
   s.requires_arc = true
-  s.dependency 'MBProgressHUD', '0.5'
+  s.dependency 'MBProgressHUD', '~> 0.8'
 end

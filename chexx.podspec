@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/eleostech/chexx.git" }
   s.platform     = :ios, '4.3'
   s.source_files = 'chexx/*.{h,m}'
+  s.homepage     = "http://eleostech.com"
   s.resources = "Resources/*.png"
   s.requires_arc = true
   s.dependency 'MBProgressHUD', '~> 0.8'

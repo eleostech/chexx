@@ -1,4 +1,4 @@
-#import <MBProgressHUD.h>
+#import <MBProgressHUD/MBProgressHUD.h>
 
 @interface MBProgressHUD (SuccessAndFailure)
 + (MBProgressHUD *)spinner:(NSString *)title inView:(UIView *)view;
